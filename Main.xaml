@@ -81,13 +81,13 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1248,805.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="965,805.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Rpa Challenge" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,686" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="1e548ae4-39d5-4764-aae5-40c7c08707f8" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Chrome Rpa Challenge" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,686" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="1e548ae4-39d5-4764-aae5-40c7c08707f8" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -103,7 +103,7 @@
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="rpachallenge.com" ContentHash="O6S_Dha--kGWTXWecFpioA" DesignTimeRectangle="1016, 464, 398, 46" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl name='w2tqW' tag='INPUT' type='' class='ng-untouched ng-pristine ng-invalid' aaname='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="03621eae-c98e-4b69-8603-d01769f7423b" InformativeScreenshot="4fbddb2eac4cdf17802be1fec75bf5a0.jpg" IsResponsive="True" Reference="7uMk7wyweEm475tXJuUQOw/EN5-4VhzdU6tbOQe7FJVKQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target DesignTimeRectangle="1016, 444, 64, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='First Name' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='First Name' /&gt;" Guid="14c5f05a-a4ec-447b-8274-643ccdf9f5b5" SearchSteps="FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
